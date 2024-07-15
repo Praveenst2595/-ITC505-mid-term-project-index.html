@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Own Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Choose Your Own Adventure</h1>
+    </header>
+    <main>
+        <div id="story">
+            <!-- Story text will be dynamically updated here -->
+        </div>
+        <div id="choices">
+            <!-- Choices will be dynamically created here -->
+        </div>
+        <div id="image">
+            <img id="storyImage" src="forest_left.png" alt="Story Image">
+        </div>
+    </main>
+    <section id="addendum">
+        <h2>Project Addendum</h2>
+        <p>This project was developed as a part of an assignment to create an interactive 'Choose Your Own Adventure' game using HTML, CSS, and JavaScript. The game includes various stages and choices that lead to different endings, enhancing user engagement through interactive storytelling.</p>
+        <p><strong>Process:</strong> The game was planned using flowcharts to map out story paths and endings. The HTML structure includes sections for the story, choices, and images. JavaScript is used to manage the game's state and update the page dynamically based on user choices.</p>
+        <p><strong>Creative Choices:</strong> The game features vibrant colors and engaging images to enhance the visual appeal and user experience. Different story paths and endings are designed to provide a diverse range of outcomes based on player choices.</p>
+        <p><strong>Challenges:</strong> One of the main challenges was ensuring that all story paths were reachable and that the images loaded correctly. This was overcome by thorough testing and adjusting the JavaScript logic to handle all possible choices and endings.</p>
+        <p><strong>Insights:</strong> The project provided valuable experience in using JavaScript for dynamic content updates and managing game state. It also highlighted the importance of thorough planning and testing in interactive web projects.</p>
+    </section>
+    <footer>
+        <p>Last updated: <span id="lastModified"></span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
